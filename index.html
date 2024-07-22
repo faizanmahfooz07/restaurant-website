@@ -1,0 +1,193 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restraunt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#reservation">Book a Table</a></li>
+                <li><a href="#food-menu">Menu</a></li>
+                <li><a href="#events">Upcoming Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <h1 class="logo"> KHWAHISH
+        </h1>
+            
+        </div>
+    </nav>
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home"></h1>
+            <p>Happiness is a plate full of biryani</p>
+            <a href="#food-menu" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">About Us</p>
+                <h2>Khwahish - Biryani Palace</h2>
+                <p>
+                    Welcome to KHWAHISH , the ultimate destination for biryani lovers!
+                    Step into our cozy and vibrant restaurant, and be transported to the flavorful
+                    world of Indian cuisine. 
+                    Our chefs, trained in the ancient art of biryani-making,use only
+                    the freshest ingredients and traditional techniques to craft 
+                    a culinary experience that will leave you craving for more.
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="https://i.postimg.cc/0NVc9YWc/KHWAHISH-LOGO.jpg" alt="food" />
+            </div>
+        </div>
+    </section>
+    
+    </section>
+    <section id="food-menu">
+        <h2 class="food-menu-heading">Food Menu</h2>
+        <div class="food-menu-container container">
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/h41JcFx4/kashmiri.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Kashmiri Biryani</h2>
+                    
+                    <p class="food-price">Price: &#8377; 550</p>
+                </div>
+            </div>
+
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/Y2Q4Pz4K/hyderabadi.jpg" alt="error" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Hyderabadi Biryani</h2>
+               
+                    <p class="food-price">Price: &#8377; 850</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/qvVyvcq4/kolkata.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Kolkata Biryani</h2>
+                    
+                    
+                    <p class="food-price">Price: &#8377; 550</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/hPZXwLWK/bombay.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Bombay Biryani</h2>
+                    
+                    <p class="food-price">Price: &#8377; 650</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/8CGgbCkL/lucknowawadhi-chicken-biryani.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Lucknowi Biryani</h2>
+                    
+                
+                    <p class="food-price">Price: &#8377; 750</p>
+                </div>
+            </div>
+            <div class="food-menu-item">
+                <div class="food-img">
+                    <img src="https://i.postimg.cc/dQHrCkQZ/sindhi.jpg" alt="" />
+                </div>
+                <div class="food-description">
+                    <h2 class="food-titile">Sindhi Biryani</h2>
+                    
+                    <p class="food-price">Price: &#8377; 600</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- Reservation Form -->
+	<section id="reservation">
+		<h2>Reserve a Table </h2>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name"><br><br>
+			<label for="date">Date:</label>
+			<input type="date" id="date" name="date"><br><br>
+			<label for="time">Time:</label>
+			<input type="time" id="time" name="time"><br><br>
+			<label for="party-size">Party Size:</label>
+			<input type="number" id="party-size" name="party-size"><br><br>
+			<input type="submit" value="Book Table">
+		</form>
+	</section>
+    
+	<!-- Upcoming Events Section -->
+	<section id="events">
+		<h2>Upcoming Events</h2>
+		<ul>
+			<li>
+				<h3>Event 1</h3>
+				<p>Date: August 7th, Time: 7pm</p>
+				<p>Description: Discover the flavours of Monsoon with live music.</p>
+			</li>
+			<li>
+				<h3>Event 2</h3>
+				<p>Date: August 15th, Time: 8pm</p>
+				<p>Description: Independence day special.</p>
+			</li>
+		</ul>
+	</section>
+	
+    <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-img">
+                <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
+            </div>
+
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="E-Mail" />
+                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
+                <a href="#" class="btn btn-primary">Submit</a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <h2>Khwahish &copy; all rights reserved</h2>
+    </footer>
+    <!-- .................../ JS Code for smooth scrolling /...................... -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+</html>
+
+</body>
+
+</html>
